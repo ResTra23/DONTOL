@@ -1,0 +1,39 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #cc5500,#ffcc66, #cc5500);
+    overflow: hidden;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.dennis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#target {
+    transition: all 0.3s;
+}
+
+#target:hover {
+    transform: scale(1.05);
+}
+
+#target:active {
+    transform: scale(0.9);
+}
