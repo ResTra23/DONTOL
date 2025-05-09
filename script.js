@@ -1,7 +1,7 @@
 let score = 0
 
-const tolong = new Audio("assets/sounds/dittolongin.mp3")
-const sfx = new Audio("assets/sounds/on-or-off-light-switch-tap.mp3")
+const tolong = new Audio("dittolongin.mp3")
+const sfx = new Audio("on-or-off-light-switch-tap.mp3")
 const scoreDisplay = document.getElementById("jumlah")
 const dennis = document.getElementById("target")
 
